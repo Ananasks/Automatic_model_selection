@@ -39,6 +39,8 @@
 ```text
 .
 ├── model_autoselector.py
+├── absTEC_absCB_dayStart_1_daysCount_309_year_2022_startStation_tetu_filted_CB.csv
+├── total_muf_30_minuts.csv
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -66,7 +68,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Положите входные CSV-файлы в корень проекта или измените пути в функции `main()`:
+В репозитории уже есть два демонстрационных CSV-файла. Если хотите использовать свои данные, положите CSV в корень проекта или измените пути в функции `main()`:
 
 ```python
 abs_file = "absTEC_absCB_dayStart_1_daysCount_309_year_2022_startStation_tetu_filted_CB.csv"
@@ -80,6 +82,8 @@ python3 model_autoselector.py
 ```
 
 После запуска результаты сохраняются в директорию `trained_models/`.
+
+Виртуальное окружение `.venv/` не хранится в репозитории: оно создаётся локально и воспроизводится через `requirements.txt`.
 
 ## Ожидаемый формат данных
 

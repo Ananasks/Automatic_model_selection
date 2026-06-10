@@ -12,10 +12,7 @@ venv/
 env/
 
 # Data and trained artifacts
-data/
-datasets/
 trained_models/
-*.csv
 *.xlsx
 *.pkl
 *.joblib
