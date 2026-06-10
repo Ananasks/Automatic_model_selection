@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and trained artifacts
+data/
+datasets/
+trained_models/
+*.csv
+*.xlsx
+*.pkl
+*.joblib
+*.h5
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
